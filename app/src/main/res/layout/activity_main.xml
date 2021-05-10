@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app5"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgpage"
+        android:layout_width="391dp"
+        android:layout_height="405dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/run4"
+        app:layout_constraintEnd_toEndOf="@+id/appheadingTV"
+        app:layout_constraintStart_toStartOf="@+id/appheadingTV"
+        app:layout_constraintTop_toBottomOf="@+id/appheadingTV" />
+
+    <TextView
+        android:id="@+id/quoteTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="HEALTH \n IS \n WEALTH"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imgpage"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/imgpage"
+        app:layout_constraintTop_toBottomOf="@+id/imgpage"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/appheadingTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="11dp"
+        android:text="Fitness Tracker App"
+        android:textColor="#66F500"
+        android:textSize="44sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
