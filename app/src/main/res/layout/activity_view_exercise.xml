@@ -34,7 +34,7 @@
         android:id="@+id/btnStart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="640dp"
+        android:layout_marginTop="590dp"
         android:padding="10dp"
         android:text="START"
         android:textSize="36sp" />
@@ -44,7 +44,7 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="550dp"
+        android:layout_marginTop="500dp"
 
         android:background="#96C56A"
         android:backgroundTint="#570778"

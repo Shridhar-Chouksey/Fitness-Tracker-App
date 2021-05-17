@@ -1,6 +1,9 @@
 plugins {
     id 'com.android.application'
+
 }
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 30
@@ -39,4 +42,9 @@ dependencies {
    //Adding Library
 
     implementation 'info.hoang8f:fbutton:1.0.5'
+    implementation "androidx.core:core-ktx:+"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+    mavenCentral()
 }

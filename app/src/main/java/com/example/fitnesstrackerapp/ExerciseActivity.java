@@ -18,7 +18,7 @@ public class ExerciseActivity extends AppCompatActivity {
         setContentView(R.layout.activity_exercise);
 
         yogaPracticeBT=findViewById(R.id.yogaPracticeBT);
-        calenderBT=findViewById(R.id.calenderBT);
+//        calenderBT=findViewById(R.id.calenderBT);
 
 
         yogaPracticeBT.setOnClickListener(new View.OnClickListener() {

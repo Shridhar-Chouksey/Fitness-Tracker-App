@@ -22,6 +22,7 @@ import java.util.List;
 class RecyclerViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener
 {
 
+
     public ImageView image;
     public TextView text;
 
@@ -78,6 +79,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewHolder
                  Intent intent=new Intent(context, ViewExercise.class);
                  intent.putExtra("image_id",exerciseList.get(position).getImage_id());
                  intent.putExtra("name",exerciseList.get(position).getName());
+                  intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                  context.startActivity(intent);
 
               } 
