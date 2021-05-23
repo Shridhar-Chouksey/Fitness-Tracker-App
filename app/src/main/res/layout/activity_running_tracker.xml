@@ -42,21 +42,21 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="400dp"
-        android:layout_height="400dp"
-        app:cardElevation="6dp"
-        app:cardUseCompatPadding="true"
+        android:layout_height="367dp"
+        android:layout_gravity="center"
         android:innerRadius="0dp"
         android:shape="ring"
-        app:cardCornerRadius="150dp"
         app:cardBackgroundColor="#FFFFFF"
-        android:layout_gravity="center">
+        app:cardCornerRadius="150dp"
+        app:cardElevation="6dp"
+        app:cardUseCompatPadding="true">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="166dp"
@@ -64,19 +64,19 @@
                 android:src="@drawable/shoes" />
 
             <TextView
+                android:id="@+id/TV_STEPS"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
-                android:textSize="40dp"
                 android:textColor="#3D6CFC"
-                android:id="@+id/TV_STEPS"/>
+                android:textSize="40dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Steps Count"
-                android:textSize="30sp"
-                android:textStyle="bold"/>
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
 
         </LinearLayout>

@@ -49,8 +49,8 @@ class RecyclerViewHolder extends RecyclerView.ViewHolder implements View.OnClick
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewHolder> {
 
-    private List<Exercise> exerciseList;
-    private Context context;
+    private final List<Exercise> exerciseList;
+    private final Context context;
 
     public RecyclerViewAdapter(List<Exercise> exerciseList, Context context) {
         this.exerciseList = exerciseList;
@@ -79,6 +79,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewHolder
                  Intent intent=new Intent(context, ViewExercise.class);
                  intent.putExtra("image_id",exerciseList.get(position).getImage_id());
                  intent.putExtra("name",exerciseList.get(position).getName());
+
                   intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                  context.startActivity(intent);
 

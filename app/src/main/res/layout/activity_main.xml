@@ -19,7 +19,7 @@
 
     <TextView
         android:id="@+id/quoteTV"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
         android:fontFamily="@font/aclonica"
@@ -30,23 +30,23 @@
         android:textSize="40sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imgpage"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/imgpage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgpage"
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/appheadingTV"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="11dp"
         android:layout_marginTop="33dp"
-        android:layout_marginEnd="11dp"
-        android:text="Fitness Tracker App"
+        android:layout_marginBottom="4dp"
+        android:text=" Fitness Tracker App"
         android:textColor="#66F500"
         android:textSize="44sp"
         android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/imgpage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
