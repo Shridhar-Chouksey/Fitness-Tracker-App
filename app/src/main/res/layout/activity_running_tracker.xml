@@ -8,6 +8,16 @@
     tools:context=".RunningTrackerActivity"
     android:background="@drawable/app7">
 
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:id="@+id/Toolbar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+<!--        app:title="                Running Tracker"-->
+<!--        android:textAlignment="center"-->
+
+<!--        android:background="#1838EB" />-->
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,34 +25,22 @@
         android:orientation="horizontal"
         android:gravity="center">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="x"
-            android:textSize="30dp"
-            android:layout_gravity="center"
-            android:layout_margin="5dp"
-            android:textColor="#000"
-            android:textStyle="bold"
-            android:fontFamily="sans-serif-thin"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Fitness"
-            android:textSize="30dp"
-            android:layout_gravity="center"
-            android:layout_margin="5dp"
-            android:textColor="#000"
-            android:textStyle="bold"
-            android:fontFamily="cursive"/>
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Running Tracker"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        />
     </LinearLayout>
-
 
     <androidx.cardview.widget.CardView
         android:layout_width="400dp"
-        android:layout_height="367dp"
+        android:layout_height="400dp"
         android:layout_gravity="center"
         android:innerRadius="0dp"
         android:shape="ring"
@@ -51,6 +49,8 @@
         app:cardElevation="6dp"
         app:cardUseCompatPadding="true">
 
+        
+        
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

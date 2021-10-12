@@ -35,27 +35,25 @@ public class YogaActivity extends AppCompatActivity {
 
 
 
-
-
-
-
     }
 
     private void initData() {
 
-        exerciseList.add(new Exercise(R.drawable.easy_pose,"Easy Pose"));
-        exerciseList.add(new Exercise(R.drawable.cobra_pose,"Cobra Pose"));
-        exerciseList.add(new Exercise(R.drawable.downward_facing_dog,"Downward Facing Dog"));
-        exerciseList.add(new Exercise(R.drawable.boat_pose,"Boat Pose"));
-        exerciseList.add(new Exercise(R.drawable.half_pigeon,"Half Pigeon"));
-        exerciseList.add(new Exercise(R.drawable.low_lunge,"Low Lunge"));
-        exerciseList.add(new Exercise(R.drawable.upward_bow,"Upward Bow"));
-        exerciseList.add(new Exercise(R.drawable.crescent_lunge,"Crescent Lung"));
-        exerciseList.add(new Exercise(R.drawable.warrior_pose,"Warrior Pose"));
-        exerciseList.add(new Exercise(R.drawable.bow_pose,"Bow Pose"));
-        exerciseList.add(new Exercise(R.drawable.warrior_pose_2,"Warrior Pose 2"));
-
-
+        exerciseList.add(new Exercise(R.drawable.sukhasana10,"Bridge / Bandha Sarvangasana"));
+        exerciseList.add(new Exercise(R.drawable.downwardfacingdogpose3,"Downward Facing Dog / Adho Mukha Svanasana"));
+        exerciseList.add(new Exercise(R.drawable.sukhasana5,"Child Pose / Balasana"));
+        exerciseList.add(new Exercise(R.drawable.sukhasana11,"Easy Pose / Sukhasana"));
+        exerciseList.add(new Exercise(R.drawable.low_lunge,"Warrior 1 / Virabhadrasana I"));
+        exerciseList.add(new Exercise(R.drawable.upward_bow,"Warrior 2 / Virabhadrasana II"));
+        exerciseList.add(new Exercise(R.drawable.crescent_lunge,"Triangle / Trikonasana"));
+        exerciseList.add(new Exercise(R.drawable.warrior_pose,"Four-Limbed Staff / Chaturanga"));
+        exerciseList.add(new Exercise(R.drawable.bow_pose,"Chair / Utkatasana"));
+        exerciseList.add(new Exercise(R.drawable.warrior_pose_2,"Tree / Vrksasana"));
+        exerciseList.add(new Exercise(R.drawable.warrior_pose_2,"Boat / Navasana"));
+        exerciseList.add(new Exercise(R.drawable.warrior_pose_2,"Crow / Bakasana"));
+        exerciseList.add(new Exercise(R.drawable.warrior_pose_2,"Arm Balance / Pincha Mayurasana"));
+        exerciseList.add(new Exercise(R.drawable.warrior_pose_2,"King Dancer / Natarajasana"));
+        exerciseList.add(new Exercise(R.drawable.warrior_pose_2,"Corpse / Savasana"));
     }
 
 

@@ -38,7 +38,6 @@ class StepDetectorService : Service(), SensorEventListener {
         }else{
             Toast.makeText(this, "Sensor Not Detected", Toast.LENGTH_SHORT).show()
         }
-
         return START_STICKY
     }
 

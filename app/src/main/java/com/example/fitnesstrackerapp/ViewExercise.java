@@ -1,6 +1,7 @@
 package com.example.fitnesstrackerapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.res.ResourcesCompat;
 
 import android.media.Image;
 import android.os.Bundle;
@@ -9,9 +10,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.BufferedReader;
 import java.util.Locale;
+
+import www.sanju.motiontoast.MotionToast;
 
 public class ViewExercise extends AppCompatActivity {
 
@@ -41,6 +45,15 @@ public class ViewExercise extends AppCompatActivity {
 
          detail_image.setImageResource(getIntent().getIntExtra("image_id",0));
          title.setText(getIntent().getStringExtra("name"));
+
+//
+//        MotionToast.Companion.createToast(this,"This is information toast!",
+//                MotionToast.TOAST_INFO,
+//                MotionToast.GRAVITY_BOTTOM,
+//                MotionToast.LONG_DURATION,
+//                ResourcesCompat.getFont(this,R.font.helvetica_regular));
+
+
 
 
         btnStartPause.setOnClickListener(new View.OnClickListener() {

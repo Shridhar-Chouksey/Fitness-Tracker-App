@@ -10,14 +10,18 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.core.content.res.ResourcesCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.fitnesstrackerapp.Interface.ItemClickListener;
+import com.example.fitnesstrackerapp.MainActivity;
 import com.example.fitnesstrackerapp.Model.Exercise;
 import com.example.fitnesstrackerapp.R;
 import com.example.fitnesstrackerapp.ViewExercise;
 
 import java.util.List;
+
+import www.sanju.motiontoast.MotionToast;
 
 class RecyclerViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener
 {
@@ -79,6 +83,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewHolder
                  Intent intent=new Intent(context, ViewExercise.class);
                  intent.putExtra("image_id",exerciseList.get(position).getImage_id());
                  intent.putExtra("name",exerciseList.get(position).getName());
+
 
                   intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                  context.startActivity(intent);

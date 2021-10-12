@@ -15,6 +15,7 @@
         android:layout_marginTop="224dp"
         android:layout_marginEnd="36dp"
         android:background="@drawable/pedometer_round_cornerbt"
+        android:backgroundTint="#E3CCCC"
         android:padding="4dp"
         android:text="Running Tracker"
         android:textSize="22sp"
@@ -41,5 +42,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/runningBT"
         app:layout_constraintVertical_bias="0.461" />
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="409dp"-->
+<!--        android:layout_height="222dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        tools:layout_editor_absoluteX="1dp"-->
+<!--        tools:layout_editor_absoluteY="1dp">-->
+
+<!--        <Spinner-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+
+
+
+<!--    </LinearLayout>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
