@@ -42,7 +42,7 @@ public class YogaActivity extends AppCompatActivity {
         exerciseList.add(new Exercise(R.drawable.sukhasana10,"Bridge / Bandha Sarvangasana"));
         exerciseList.add(new Exercise(R.drawable.downwardfacingdogpose3,"Downward Facing Dog / Adho Mukha Svanasana"));
         exerciseList.add(new Exercise(R.drawable.sukhasana5,"Child Pose / Balasana"));
-        exerciseList.add(new Exercise(R.drawable.sukhasana11,"Easy Pose / Sukhasana"));
+        exerciseList.add(new Exercise(R.drawable.sukhasana10,"Easy Pose / Sukhasana"));
         exerciseList.add(new Exercise(R.drawable.low_lunge,"Warrior 1 / Virabhadrasana I"));
         exerciseList.add(new Exercise(R.drawable.upward_bow,"Warrior 2 / Virabhadrasana II"));
         exerciseList.add(new Exercise(R.drawable.crescent_lunge,"Triangle / Trikonasana"));

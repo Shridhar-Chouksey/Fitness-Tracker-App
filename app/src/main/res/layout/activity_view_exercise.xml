@@ -24,21 +24,31 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
+        android:id="@+id/detail_image"
         android:layout_width="300dp"
         android:layout_height="250dp"
-        android:id="@+id/detail_image"
-        android:src="@drawable/boat_pose"
-        android:layout_centerInParent="true"/>
+        android:layout_alignStart="@+id/timer"
+        android:layout_alignEnd="@+id/timer"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-99dp"
+        android:layout_marginEnd="-102dp"
+        android:src="@drawable/boat_pose" />
 
     <Button
         android:id="@+id/btnStartPause"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/pedometer_round_cornerbt"
+        android:layout_alignStart="@+id/timer"
+        android:layout_alignEnd="@+id/timer"
+        android:layout_marginStart="-155dp"
         android:layout_marginTop="590dp"
+        android:layout_marginEnd="-157dp"
+        android:background="@drawable/pedometer_round_cornerbt"
         android:padding="10dp"
         android:text="START"
         android:textSize="36sp" />
+
+
 
     <TextView
         android:id="@+id/timer"
@@ -63,12 +73,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/title"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/detail_image"
+        android:layout_alignEnd="@+id/detail_image"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="95dp"
+        android:layout_marginStart="39dp"
         android:layout_marginTop="64dp"
-        android:layout_marginEnd="92dp"
+        android:layout_marginEnd="37dp"
         android:layout_marginBottom="524dp"
         android:background="@drawable/pedometer_round_cornerbt"
         android:text="RESET"
